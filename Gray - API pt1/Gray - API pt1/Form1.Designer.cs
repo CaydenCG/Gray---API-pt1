@@ -45,6 +45,8 @@
             this.FlavorLabel = new System.Windows.Forms.Label();
             this.EggLabel = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.ScenarioLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // SearchButton
@@ -130,7 +132,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(357, 124);
+            this.label6.Location = new System.Drawing.Point(103, 292);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(74, 16);
             this.label6.TabIndex = 10;
@@ -175,7 +177,7 @@
             // FlavorLabel
             // 
             this.FlavorLabel.AutoSize = true;
-            this.FlavorLabel.Location = new System.Drawing.Point(482, 124);
+            this.FlavorLabel.Location = new System.Drawing.Point(228, 292);
             this.FlavorLabel.Name = "FlavorLabel";
             this.FlavorLabel.Size = new System.Drawing.Size(79, 16);
             this.FlavorLabel.TabIndex = 15;
@@ -193,17 +195,37 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(137, 29);
+            this.label8.Location = new System.Drawing.Point(114, 24);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(143, 16);
+            this.label8.Size = new System.Drawing.Size(193, 16);
             this.label8.TabIndex = 17;
-            this.label8.Text = "Enter an ID from 1-1025";
+            this.label8.Text = "Enter an ID from 1-386 (Gen 1-3)";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(356, 124);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(61, 16);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Scenario";
+            // 
+            // ScenarioLabel
+            // 
+            this.ScenarioLabel.AutoSize = true;
+            this.ScenarioLabel.Location = new System.Drawing.Point(356, 152);
+            this.ScenarioLabel.Name = "ScenarioLabel";
+            this.ScenarioLabel.Size = new System.Drawing.Size(80, 16);
+            this.ScenarioLabel.TabIndex = 19;
+            this.ScenarioLabel.Text = "Placeholder";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(726, 297);
+            this.ClientSize = new System.Drawing.Size(758, 412);
+            this.Controls.Add(this.ScenarioLabel);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.EggLabel);
             this.Controls.Add(this.FlavorLabel);
@@ -247,6 +269,8 @@
         private System.Windows.Forms.Label FlavorLabel;
         private System.Windows.Forms.Label EggLabel;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label ScenarioLabel;
     }
 }
 
